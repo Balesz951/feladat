@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive-IT - Flotta</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Drive-IT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="flotta.html">Flotta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="uj-auto.html">Új autó</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kolcsonzes.html">Kölcsönzés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h2 class="fw-bold">Elérhető gépjárművek listája</h2>
+        
+
+        <div class="table-responsive mt-4">
+            <table class="table table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Rendszám</th>
+                        <th>Típus</th>
+                        <th>Kategória</th>
+                        <th>Napi díj</th>
+                        <th>Állapot</th>
+                        <th>Művelet</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AA-BC-123</td>
+                        <td>Toyota Corolla</td>
+                        <td>Sedan</td>
+                        <td>12.500 Ft</td>
+                        <td><span class="badge bg-warning text-dark"></span></td>
+                        <td><button class="btn btn-outline-danger btn-sm">Törlés</button></td>
+                    </tr>
+                    <tr>
+                        <td>RB-789-XY</td>
+                        <td>Ford Kuga</td>
+                        <td>SUV</td>
+                        <td>18.900 Ft</td>
+                        <td><span class="badge bg-warning text-dark"></span></td>
+                        <td><button class="btn btn-outline-danger btn-sm">Törlés</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+    </main>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

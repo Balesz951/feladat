@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive-IT - Kezdőlap</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Drive-IT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="flotta.html">Flotta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="uj-auto.html">Új autó</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kolcsonzes.html">Kölcsönzés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="fw-bold">Drive-IT Nyilvántartó rendszer</h1>
+            <div class="mt-4">
+                <a href="flotta.html" class="btn btn-outline-light px-4 me-2">Flotta</a>
+                <a href="kolcsonzes.html" class="btn btn-outline-light px-4">Kölcsönzés</a>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Flotta</h5>
+                        <p class="card-text text-muted">Reszponzív táblázat a gépjárművek adataival.</p>
+                        <a href="flotta.html" class="btn btn-primary w-100">Megnyitás</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kölcsönzés</h5>
+                        <p class="card-text text-muted">Reszponzív táblázat a gépjárművek adataival.</p>
+                        <a href="kolcsonzes.html" class="btn btn-primary w-100">Megnyitás</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Új autó</h5>
+                        <p class="card-text text-muted">Reszponzív táblázat a gépjárművek adataival.</p>
+                        <a href="uj-auto.html" class="btn btn-primary w-100">Megnyitás</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

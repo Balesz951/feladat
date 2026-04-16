@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drive-IT - Új autó</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Drive-IT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="flotta.html">Flotta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="uj-auto.html">Új autó</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kolcsonzes.html">Kölcsönzés</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="container my-5">
+        <h2 class="fw-bold mb-4">Új gépjármű felvétele</h2>
+        
+        <form class="w-75">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label text-muted">Márka és Típus</label>
+                    <input type="text" class="form-control" placeholder="Pl. Volkswagen Golf">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label text-muted">Rendszám</label>
+                    <input type="text" class="form-control" placeholder="AAA-111">
+                </div>
+            </div>
+            
+            <div class="mb-4">
+                <label class="form-label text-muted">Üzemanyag</label>
+                <select class="form-select">
+                    <option selected>Válasszon...</option>
+                    <option value="1">Benzin</option>
+                    <option value="2">Dízel</option>
+                    <option value="3">Elektromos</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="btn btn-primary w-100">Mentés</button>
+        </form>
+    </main>
+
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

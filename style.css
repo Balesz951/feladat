@@ -1,0 +1,21 @@
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
